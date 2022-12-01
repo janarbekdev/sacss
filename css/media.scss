@@ -1,0 +1,207 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero{
+    .hero{
+      img {
+        width: 60%;
+      }
+      h1{
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 999px) {
+  #hero{
+    .hero{
+
+      flex-direction: column;
+      img{
+        width: 80%;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #play{
+    .play{
+      &--sav{
+        img{
+          width: 80%;
+        }
+      }
+    }
+  }
+  #footer{
+    .footer{
+      &--center{
+        flex-flow: wrap;
+        &__brok{
+          p{
+            padding: 20px 0;
+          }
+          margin-top: 43px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+#abuot{
+  .about{
+    img{
+      width: 90%;
+    }
+  }
+}
+  .lina {
+    margin-left: 16px;
+    width: 325px;
+  }
+  #hero{
+    .hero{
+      h1{
+        font-size: 15px;
+
+      }
+      p{
+        width: 292px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 376px) {
+  #footer{
+
+    .footer{
+      &--start{
+        h1{
+          font-size: 30px;
+
+        }
+        font-weight: 400;
+        font-size: 7px;
+      }
+      &--end{
+        h1{
+          padding: 14px 10px;
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #abuot{
+    padding: 1px 0;
+    .about{
+      &--nov{
+        h2{
+
+        }
+
+        h1{
+          width: 229px;
+          font-size: 14px;
+        }
+        img{
+          width: 99%;
+        }
+      }
+    }
+  }
+  .linia2{
+    margin-left: 10px;
+
+  }
+  .lina {
+    margin-left: 17px;
+    width: 284px;
+  }
+  #lack{
+    .lack{
+      &--nov{
+        margin-top: 30px;
+
+        h1{
+          padding: 19px 0;
+          width: 245px;
+          font-weight: 400;
+          font-size: 10px;
+        }
+      }
+    }
+    &--btn{
+      border-radius: 8px;
+      width: 165px;
+      height: 46px;
+      font-weight: 400;
+      font-size: 9px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #000000;
+      margin: 21px 0 20px 0;
+    }
+  }
+  #play{
+    padding: 1px 0;
+    .play{
+      &--sav{
+        margin-top: 7px;
+
+        h1{
+          padding: 2px 0;
+          font-weight: 400;
+          font-size: 9px;
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      text-align: center;
+    }
+  }
+  #header{
+    .header{
+      &--nov{
+        display: none;
+
+      }
+    }
+  }
+  #footer{
+    padding: 1px 0;
+    .footer{
+      &--center{
+        &__brok{
+          button{
+            margin: 10px -3px -1px 16px;
+
+          }
+        }
+        h1{
+          padding: 6px 1px;
+
+        }
+
+      }
+      &--start{
+        p{
+          font-size: 7px;
+        }
+      }
+      &--end{
+        flex-wrap: wrap;
+        width: 100%;
+      }
+    }
+  }
+
+}
