@@ -28,6 +28,7 @@
   }
 }
 @media (max-width: 576px) {
+
   #play{
     .play{
       &--sav{
@@ -182,8 +183,12 @@
       &--center{
         &__brok{
           button{
+            transform: scale(1.1);
             margin: 10px -3px -1px 16px;
-
+          transition: -1s;
+            &:hover{
+border-radius: 50px;
+            }
           }
         }
         h1{
